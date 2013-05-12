@@ -1,7 +1,8 @@
-
 # progress
 
   Simple progress bars
+  
+  [demo](http://jb55.github.com/progress)
 
 ## Unstyled Screenshot
 
