@@ -1,7 +1,6 @@
 .progress {
   height: 20px;
   overflow: hidden;
-  border: 1px solid black;
 }
 
 .progress .bar {
