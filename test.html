@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Progress bars</title>
+        <link rel="stylesheet" href="build/build.css">
+        <style type="text/css" media="all">
+            
+        </style>
+    </head>
+    
+    <body>
+        <script src="build/build.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            var Progress = require('progress')
+              , bar = new Progress()
+              , i = 0
+            ;
+            
+            document.body.appendChild(bar.el);
+            
+            function loop() {
+                if (i <= 100) {
+                    i += 1;
+                    bar.set(i);
+                    setTimeout(loop, 100);
+                }
+            }
+            
+            setTimeout(loop, 1000);
+            
+        </script>
+    </body>
+
+</html>

@@ -1,16 +1,11 @@
 {
   "name": "progress",
-  "repo": "jb55/progress",
+  "repo": "JayceTDE/progress",
   "description": "Simple progress bar component",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "keywords": ["bars", "progress", "progressbar"],
-  "dependencies": {
-    "jb55/has-class": "*"
-  },
-  "development": {
-    "component/map": "*",
-    "component/each": "*"
-  },
+  "dependencies": {},
+  "development": {},
   "license": "MIT",
   "main": "index.js",
   "scripts": [

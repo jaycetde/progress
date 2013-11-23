@@ -1,20 +1,10 @@
 # progress
 
   Simple progress bars
-  
-  [demo](http://jb55.github.com/progress)
-
-## Unstyled Screenshot
-
-  ![Unstyled](progress-unstyled.png)
-
-## Themes
-
-  - [Bootstrap](https://github.com/jb55/bootstrap-progress)
 
 ## Installation
 
-    $ component install jb55/progress
+    $ component install JayceTDE/progress
 
 ## API
 
@@ -25,7 +15,7 @@ Animations are handled in css automatically.
 
 Simple utility for changing bar sizes
 
-### Progress#update(percent)
+### Progress#set(percent)
 
 Percent is a number from `0-100`. This is a simple wrapper around style.width
 for `.bar` elements.
